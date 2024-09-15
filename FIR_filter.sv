@@ -1,9 +1,9 @@
 module FIR_filter # (
     parameter L = 8,
-    parameter b0 = 1,
-    parameter b1 = 2,
-    parameter b2 = 3,
-    parameter b3 = 4
+    parameter b0 = 0,
+    parameter b1 = 1,
+    parameter b2 = 2,
+    parameter b3 = 3
 ) (
     input   bit     CLK,
     input   logic   RST,
